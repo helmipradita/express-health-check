@@ -1,9 +1,8 @@
-// ecosystem.config.js
 module.exports = {
   apps: [
     {
       name: "express-health-check",
-      script: "./server.js", // Tetap pakai ESM di sini
+      script: "./server.js",
       interpreter: "node",
       interpreter_args: "--enable-source-maps",
       exec_mode: "fork",
